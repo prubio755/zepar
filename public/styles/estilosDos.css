@@ -1,0 +1,470 @@
+
+
+
+
+
+
+
+
+
+
+
+body {
+	margin: 0px;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 0px;
+	margin:0px;
+}
+
+
+
+.backBlack {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.6;
+	padding: 0px;
+	margin: 0px;
+}
+
+i {
+	position: relative;
+	width: 40px;
+	height: auto;
+	background-color: white;
+	border-radius: 50px;
+	color: black;
+
+}
+
+
+
+
+			.logoLateral {
+				position: relative;
+				width: auto;
+				height: auto;
+				float: left;
+			}
+
+			.principal {
+				position: relative;
+				width: auto;
+				height: auto;
+				float: right;
+			}
+
+			.logoFormulario {
+				margin-left: 60px;
+				margin-right: 10px;
+			}
+
+
+
+
+
+/* Menu */
+		.topMenu ul 
+				{
+					list-style: none;
+					float: left;
+					border-left: 3px dashed orange ;
+					padding: 2%;
+					width: 100%;
+					background-color: white;
+
+				}
+
+		.topMenu ul li
+				{
+					float: left;
+					margin-right: 20px;
+					padding: 5px;
+
+				}
+
+		.topMenu ul li a
+				{
+					color: lightgrey;
+					text-decoration: none;
+
+				}
+
+		.topMenu ul li a:hover
+				{
+					color: black;	
+				} 
+
+
+
+			.pruebaX {
+				position: relative;
+				width: 200px;
+				height: 200px;
+				background-color: lightblue;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video {
+	position: relative;
+	width:70%;
+	height: 900px;
+	float: left;
+	left: 1px;
+	display: flex;
+	background-color: black;
+}
+video {
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+.fomrBox {
+	position: relative;
+	width:30%;
+	height: 900px;
+	float: right;
+	right: 1px;
+	display: flex;	
+	background-image: url(../img/img3.jpg);
+	background-size: 300%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0px;
+	margin: 0px;
+}
+form {
+	position: relative;
+	width:100%;
+	margin: auto;
+
+}
+input {
+	position: relative;
+	width:90%;
+	height: 30px;
+	margin: 10px;
+}
+label {
+	position: relative;
+	width: 100%;
+	height: auto;
+	font-family: 'Roboto';
+	color: white;
+	padding-left: 15px;
+	font-weight: lighter;
+}
+.btn {
+	position: relative;
+	width: 150px;
+	height: auto;
+	font-family: 'Roboto';
+	color: white;
+	float: left;
+	background-color: #d1323e;
+	padding: 6px;
+	border: none;
+	border-radius: 2px;
+}
+
+
+
+
+
+			.cajaVuno{
+				position: relative;
+				width: 100%;
+				height: 896px;
+			}
+
+
+
+
+/** Empresa **/
+
+			 .sintesisEmpresa {
+ 				width:100%;
+				height: 1040px;	
+ 			}
+
+
+ 			.cajaVdos {
+ 				width: 100%;
+ 				height: 5px;
+ 			}
+
+
+
+			.margentextouno {
+				font-family: 'Roboto'
+				font-size: 100px;
+				font-weight: 100px;	
+				color: darkgray;	
+				margin-left: 60px;
+				}
+
+
+
+
+			.imgEmpresa {
+				margin-right: 30px;
+				margin-top: -110px;
+
+				
+			}
+
+				.titleEmpresa {
+				position: relative;
+				width: 100%;
+				height: 20px;
+				text-align: left;
+				margin-left: 600px;
+				font-family: 'Roboto';
+				font-size: 150px;
+				font-weight: 100px;
+				color: #d93142;
+
+				}
+
+
+/** Productos **/
+
+			.titleProductos {
+				text-align: center;
+				position: relative;
+				width: 100%;
+				height: 20px;
+				font-family: 'Roboto';
+				font-size: 150px;
+				font-weight: 100px;
+				color: #d93142;
+			}
+
+			.cajaVtres {
+			 	width: 100%;
+ 				height: 100px;	
+			}
+
+
+			.condom {
+				margin: 0px auto;
+				display: block;
+			}
+
+			.test {
+				margin: 10px auto;
+				display: block;
+			}
+
+			.pills {
+				margin: 20px auto;
+				display: block;
+			}
+
+			.cajaVcuatro {
+				position: relative;
+				width: 100%;
+				height: 250px;
+			}
+
+
+/* Distribución */
+
+				.cajaDistribucion {
+					width: 100%;
+					height: 100;
+				}
+
+			.titleDistribucion {
+				text-align: left;
+				margin-left: 60px;
+				position: relative;
+				width: 100%;
+				height: 20px;
+				font-family: 'Roboto';
+				font-size: 150px;
+				font-weight: 100px;
+				color: #d93142;
+			}
+
+			.margentextodos {
+				font-family: 'Roboto'
+				font-size: 100px;
+				font-weight: 100px;	
+				color: darkgray;	
+				margin-left: 800px;
+			}
+
+			.mapa {
+				position: relative;
+				margin-left: 120px;
+			}
+
+			.cajaVseis {
+				position: relative;
+				width: 100%;
+				height: 100px;
+			}
+
+
+
+
+
+
+/* Contacto */
+
+			.cajaContacto {
+					width: 100%;
+					height: 100;
+				}
+
+			.titleContacto {
+				text-align: left;
+				margin-left: 60px;
+				margin-top: 60px;
+				position: relative;
+				width: 100%;
+				height: 20px;
+				font-family: 'Roboto';
+				font-size: 150px;
+				font-weight: 100px;
+				color: #d93142;
+			}
+
+
+
+
+/*  FLEX BOX Aqui esta lo de los iconos */
+
+			.flex-container {
+			 position: relative;
+			  padding: 0;
+			  margin: 0;
+			  width: 100%;
+			  height: auto;
+			  list-style: none;
+			  display: -webkit-box;
+			  display: -moz-box;
+			  display: -ms-flexbox;
+			  display: -webkit-flex;
+			  display: flex;
+			  
+			  -webkit-flex-flow: row wrap;
+			  justify-content: space-around;
+			}
+
+			.flex-item {
+			  position: relative;
+			  width: 200px;
+			  height: 200px;
+			  transition: all .2s ease-in-out;
+			  background-color: orange;
+			}
+
+			.flex-container div img {
+				position: absolute;
+				width: 200px;
+				height: 150px;
+				background-color: #6cac57;
+				padding-bottom: 50px;
+			}
+			.flex-container div p {
+				position: absolute;
+				width: 200px;
+				height: auto;
+				color: white;
+				bottom: 0px;
+				text-align: center;
+				opacity: 0;
+				bottom:10px;
+			}
+
+			.flex-item:hover { 
+				  transform: scale(1.1);  
+			}
+
+
+
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 727px) {
+
+	.video {
+		position: relative;
+		width:100%;
+		height: auto;
+		background-color: yellow;
+	}
+	video {
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+
+	.fomrBox {
+		position: relative;
+		width:100%;
+		height: auto;
+		background-color: orange;
+		padding: 10px;
+	}
+	form {
+		position: relative;
+		width:100%;
+		margin: auto;
+	}
+	input {
+		position: relative;
+		width:100%;
+		height: auto;
+		margin: 10px;
+	}
+	label {
+		font-family: 'Roboto';
+	}
+	.btn {
+		position: relative;
+		width: 150px;
+		height: auto;
+		float: left;
+	}
+
+
+
+}
+
+
+
+
+

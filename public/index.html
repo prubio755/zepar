@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+ 
+    <html lang="es">
+     
+        <head>
+                <title>Zepar</title>
+                <link rel="shortcut icon" href="img/logo.jpg" />
+                <link href="https://fonts.googleapis.com/css?family=Roboto:100i,400,700" rel="stylesheet">
+
+              <!-- CSS General -->
+                <link rel="stylesheet" type="text/css" href="styles/estilosDos.css">
+
+              <!-- Meta-Tags -->
+                <meta charset="UTF-8">
+                <meta name="description" content="Brindar como socio comercial estratégico soluciones integrales para la cadena de suministro de la industria del plástico, estableciendo relaciones a largo plazo que generen valor para nuestros clientes, colaboradores, proveedores y accionistas">
+                <meta name="keywords" content="Plastico,Polietileno,Masterbach,Recinas Plásticas, Estireno">
+                <meta name="author" content="Patricia Rubio">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="scripst/animatescroll.min.js"></script>
+
+          
+            </head>
+         
+        <body>
+
+            <header>
+              <div class="contenedorNav">
+                  <div class="logoLateral">
+                  <img src="img/img2.jpg" width="230" height="70"/>
+              </div>
+
+              <div class="principal">
+                      <nav class="topMenu">
+                            <ul> 
+                               <li><a href="#">Inicio</a></li>
+                               <li><a onclick="$('#empresaClic').animatescroll({ scrollSpeed:3000,easing:'easeOutElastic' });" href="#">Empresa</a></li>
+                               <li><a href="#">Productos</a></li>
+                               <li><a href="#">Distribución</a></li>
+                               <li><a href="#">Contacto</a></li>
+                            </ul>
+                       </nav>
+              </div> <!-- END contenedor-->
+            </header>
+
+
+<!-- VIDEO -->
+
+            <section>
+               <!-- <h4>Inicio</h4> -->
+                <div class="video">
+                     <div class="backBlack"></div> 
+                    <video src="img/woman.mp4" loop autoplay > </video>
+                </div>
+                <div class="fomrBox">
+                    <div class="backBlack"></div> 
+                    <form method="post" name="contactformZepar" action="mail2.php">
+                        <label><i>&#128583;</i> Nombre:</label><br>
+                        <input name="name" type="text" placeholder="Escribe tu nombre">
+             
+                        <label><i>&#128235;</i> E-mail:</label><br>
+                        <input name="email" type="email" placeholder="Escribe tu E-mail">
+              
+                   
+                        <label><i>&#9742;</i> Télefono:</label><br>
+                        <input name="phone number" type="number" placeholder="Escribe tu número telefónico">
+                    
+                        <label> <i>&#128140;</i> Mensaje:</label><br>
+                        <input  name="mensaje" type="text" class="form-control" placeholder="Escribe tu mensaje">
+              
+                        <input  class="btn" type="submit" name="submit"  value="E N V I A R" >
+                    </form> 
+                </div>
+            </section>
+
+
+
+
+        <section class="cajaVuno">
+          
+        </section>
+
+
+
+
+
+
+        <section class="sintesisEmpresa" id="empresaClic">
+            <h4 class="titleEmpresa">Empresa</h4>
+
+            
+            <div class="margentextouno">
+            <p>
+              Somos una empresa joven y mexicana<p>
+              dedicada a la distribución de preservativos<p> 
+              lubricados, pruebas de embarazo y pastillas<p>
+              antiresaca. Distribuimos a toda la República<p> 
+              Mexicana y manejamos precios especiales a <p>
+              distribuidores y mayoristas. 
+            </p>
+            </div>
+            <div>
+            <img src="img/img9.jpg" class="imgEmpresa" align="right">
+            </div>
+        </section>
+
+
+
+        <section>
+          <h4 class="titleProductos">Productos</h4>
+          <div class="cajaVtres"></div>
+
+            <div class="flex-container "> <!-- Contenedor FLEXIBLE -->
+              <div class="flex-item">
+                  <img src="img/img6.jpg" />
+                  <p class="ppx">jdjdjdjdjjdjjsjjdjdj</p>
+              </div>
+              <div class="flex-item">
+                  <img src="img/img7.jpg">
+                  <p>Texto Dentro</p>
+              </div>
+              
+              <img src="img/img8.jpg" class="flex-item ">
+            </div>
+       
+             <div class="cajaVcuatro"></div>
+        </section>
+
+<script type="text/javascript">
+
+$(".flex-item").hover(function(){
+    $('.ppx').css("opacity", "1").animate({left: '20px'});
+    }, function(){
+    $('.ppx').css("opacity", "0").animate({left: '0px'});
+});
+
+</script>
+
+
+
+
+        <section class="cajaDistribucion">
+          <h4 class="titleDistribucion">Distribución</h4>
+            <div class="cajaVcinco"></div>
+
+                <div class="margentextodos">
+                    <p>
+                      Contamos con distribución al interior de la <p>
+                      República Mexicana<p> 
+                    </p>
+                </div>
+
+                <img src="img/img10.jpg" class="mapa">
+
+            <div class="cajaVseis"></div>
+
+        </section>
+
+        
+        <section class="cajaContacto">
+          <h4 class="titleContacto">Contacto</h4>
+            <div class="cajaVsiete></div>
+        </section>
+
+
+
+
+
+  </body>
+</html>
